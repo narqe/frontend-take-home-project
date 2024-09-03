@@ -2,7 +2,7 @@ export type Tool = 'brush' | 'eraser' | 'rectangle';
 
 export type HexColor = `#${string}`;
 
-interface CanvasContextType {
+export interface CanvasContextType {
     canvasRef: React.RefObject<HTMLCanvasElement>;
     startDrawing: (e: React.MouseEvent<HTMLCanvasElement>) => void;
     draw: (e: React.MouseEvent<HTMLCanvasElement>) => void;
