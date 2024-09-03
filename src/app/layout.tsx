@@ -14,7 +14,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    
     <html lang="en">
+      <head>
+        <title>Joel Acef - Challenge</title>
+        <meta name='description' content='Description' />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )

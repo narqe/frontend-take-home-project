@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+@media (max-width: 768px) { /* You can adjust the max-width as needed */
+    .container {
+        margin: 0 10px;
+    }
+}

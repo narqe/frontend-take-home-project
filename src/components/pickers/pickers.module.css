@@ -1,0 +1,10 @@
+.button, .colorPicker {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.button-selected {
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 3px 2px 1px #000;
+}
