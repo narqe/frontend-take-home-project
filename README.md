@@ -47,7 +47,10 @@ Just remember: when in doubt, treat this project as though you are about to subm
 ## Setup Guide
 [SETUP GUIDE](SETUP.md)
 
-## Vercel Deploy URL
+## Deploy URL
+
+This is the URL for my develop version in Vercel:
+
 - https://frontend-take-home-project-aeuw3bvmg-narqes-projects.vercel.app/playground
 
 Good luck and if you have questions, please reach out to us at hiring@classkick.com

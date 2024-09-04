@@ -1,0 +1,32 @@
+$border-radius: 10px;
+$border-color: black;
+$box-shadow: 3px 2px 1px #000;
+
+@mixin common-styles {
+    border-radius: $border-radius;
+    border: 1px solid $border-color;
+    height: 50px;
+    min-height: 0;
+    min-width: 0;
+}
+
+.button {
+    @include common-styles;
+    width: 50px;
+}
+
+.colorPicker {
+    @include common-styles;
+    width: 150px;
+}
+
+.button-selected {
+    @include common-styles;
+    width: 50px;
+    box-shadow: $box-shadow;
+}
+
+.image {
+    width: 24px; 
+    height: 24px;
+}

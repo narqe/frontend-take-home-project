@@ -95,14 +95,6 @@ a {
   text-decoration: none;
 }
 
-button,
-input {
-  background: transparent;
-  cursor: pointer;
-  min-height: 50px;
-  min-width: 50px;
-}
-
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

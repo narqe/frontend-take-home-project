@@ -38,6 +38,15 @@ export default function Home() {
 
       <br></br>
 
+      <div className={styles.description}>
+        <p>
+          Go to my resolution:&nbsp;
+          <code className={styles.code}><a href="/playground">/playground</a></code>
+        </p>
+      </div>
+
+      <br></br>
+
       <div className={styles.grid}>
         <div className={styles.card}>
           <h2>

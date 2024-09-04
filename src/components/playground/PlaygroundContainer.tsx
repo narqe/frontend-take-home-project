@@ -1,14 +1,19 @@
 import ControlsContainer from '@/components/controls/ControlsContainer';
 import CanvasContainer from '@/components/canvas/CanvasContainer';
-import styles from '@/components/playground/playground.module.css';
+import styles from '@/components/playground/playground.module.scss';
+import { Grid } from '@mui/material';
 
 const PlaygroundContainer = () => {
 
   return (
-    <div className={styles.container}>
-      <ControlsContainer />
-      <CanvasContainer />
-    </div>
+    <Grid className={styles.container}>
+      <Grid>
+        <ControlsContainer />
+      </Grid>
+      <Grid>
+        <CanvasContainer />
+      </Grid>
+    </Grid>
   );
 }
 
