@@ -55,4 +55,9 @@ This is the URL for my develop version in Vercel:
 
 Good luck and if you have questions, please reach out to us at hiring@classkick.com
 
+## Missings & Pendings
+
+If I had more time I would have liked to focus more on the design and some extra features. I could have done something more like Paint, with a button to paint the whole screen in one color and I would have liked to add a text box.
+
+I mainly focused on finishing the functional stuff, making sure there were no bugs in the code and keeping the components as simple as possible.
 
