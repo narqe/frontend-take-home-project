@@ -12,6 +12,7 @@ const ToolPicker = ({ selected }: { selected: Tool }) => {
             <Button 
                 className={`${tool === selected ? styles[`button-selected`] : styles.button}`}
                 onClick={() => setTool(selected)}
+                id={selected}
             >
                 <Image
                     src={`/controls/${selected}.svg`}

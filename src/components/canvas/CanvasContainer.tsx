@@ -22,6 +22,7 @@ const CanvasContainer = () => {
                 onMouseLeave={stopDrawing}
                 width={800}
                 height={600}
+                id='canvas'
                 aria-label="Drawing canvas"
                 role="application"
             />

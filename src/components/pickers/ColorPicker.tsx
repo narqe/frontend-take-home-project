@@ -9,7 +9,7 @@ const ColorPicker = () => {
         <input
             className={styles.colorPicker} 
             type="color" 
-            id="colorPicker" 
+            id="color-picker" 
             value={color} 
             onChange={(e) => setColor(e.target.value as unknown as HexColor)} 
         />

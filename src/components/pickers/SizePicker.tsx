@@ -12,6 +12,7 @@ const SizePicker = ({ size, value }: { size: string, value: number }) => {
             <Button 
                 className={`${lineWidth === value ? styles[`button-selected`] : styles.button}`} 
                 onClick={() => setLineWidth(value)}
+                id={`stroke-${size}`}
             >
                 <Image
                     src={`/controls/circle.svg`}

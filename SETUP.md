@@ -41,7 +41,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/)
 
-## To run tests
+## To run UI tests
 
 ```bash
 npm test
@@ -49,4 +49,12 @@ npm test
 yarn test
 # or
 pnpm test
+```
+
+## To run e2e tests
+
+```bash
+npx cypress run 
+#or 
+npx cypress open 
 ```
