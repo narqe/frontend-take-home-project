@@ -1,13 +1,11 @@
-$border-radius: 10px;
+$border-radius: 8px;
 $border-color: black;
 $box-shadow: 3px 2px 1px #000;
 
 @mixin common-styles {
-    border-radius: $border-radius;
-    border: 1px solid $border-color;
+    border-radius: $border-radius !important;
+    border: 1px solid $border-color !important;
     height: 50px;
-    min-height: 0;
-    min-width: 0;
 }
 
 .button {
@@ -20,7 +18,8 @@ $box-shadow: 3px 2px 1px #000;
     width: 150px;
 }
 
-.button-selected {
+.button-selected,
+.button:hover {
     @include common-styles;
     width: 50px;
     box-shadow: $box-shadow;
