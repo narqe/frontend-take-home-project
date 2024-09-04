@@ -11,15 +11,15 @@ const CanvasContainer = () => {
         <Box
             role="img"
             aria-label={instructions}
-            tabIndex="0"
-            onMouseDown={startDrawing}
-            onMouseMove={draw}
-            onMouseUp={stopDrawing}
-            onMouseLeave={stopDrawing}
+            tabIndex={0}
         >
             <canvas
                 className={styles.canvas}
                 ref={canvasRef}
+                onMouseDown={startDrawing}
+                onMouseMove={draw}
+                onMouseUp={stopDrawing}
+                onMouseLeave={stopDrawing}
                 width={800}
                 height={600}
                 aria-label="Drawing canvas"
